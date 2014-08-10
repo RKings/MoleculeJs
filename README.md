@@ -16,7 +16,7 @@ var stage = new Stage(canvas);
 ```
 
 ## Create your first Molecule
-Pass in the X, Y and Radius of your Molecule and you are good to go. 
+Pass in the X, Y and Radius of your Molecule and you are good to go.  
 Aditionally you can set some other properties if you'd like:
 
 ```javascript
