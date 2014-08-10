@@ -28,6 +28,11 @@ molecule.color = '#FF0000';
 molecule.alpha = 1;
 ```
 
+Finally, you add the Molecule to the Stage, like so:
+```javascript
+stage.addChild(molecule);
+```
+
 Find your Molecule on the stage by getting it at it's position:
 ```javascript
 stage.getChildAt(0) //Param: Index of the Molecule.
