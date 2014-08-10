@@ -1,4 +1,7 @@
 # MoleculeJs
+The Particle System Library behind: http://epicexit.com
+
+![Molecule.Js at Epicexit.com](http://wautersj.be/share/molecule-tml-2.png "Molecule.Js at Epicexit.com")
 
 ## Include Dependencies & Library
 
@@ -23,4 +26,9 @@ Aditionally you can set some other properties if you'd like:
 var molecule = new Molecule(0,0,6);
 molecule.color = '#FF0000';
 molecule.alpha = 1;
+```
+
+Find your Molecule on the stage by getting it at it's position:
+```javascript
+stage.getChildAt(0) //Param: Index of the Molecule.
 ```
