@@ -16,7 +16,11 @@ var stage = new Stage(canvas);
 ```
 
 ## Create your first Molecule
-Params: X, Y, SIZE
+Pass in the X, Y and Radius of your Molecule and you are good to go. 
+Aditionally you can set some other properties if you'd like:
+
 ```javascript
 var molecule = new Molecule(0,0,6);
+molecule.color = '#FF0000';
+molecule.alpha = 1;
 ```
