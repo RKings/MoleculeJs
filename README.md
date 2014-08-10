@@ -33,7 +33,7 @@ Finally, you add the Molecule to the Stage, like so:
 stage.addChild(molecule);
 ```
 
-Find your Molecule on the stage by getting it at it's position:
+Find your Molecule on the stage by getting it at its position:
 ```javascript
 stage.getChildAt(0) //Param: Index of the Molecule.
 ```
